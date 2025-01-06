@@ -1,0 +1,44 @@
+h1 {
+    color:green;
+}
+label ,input { 
+    display: block;
+    margin-top: 5px;
+    max-width: 100%;
+    cursor: alias;
+}
+label{
+    margin-top: 10px;
+}
+#name {
+    border-radius: 5px; background-color: aquamarine;
+    border: 2px solid red;
+    width: 100%;
+    /* height: fit-content; */
+    height: 30px;
+}
+#email, #text{
+    background-color: aquamarine;
+    /* color: brown; */
+    border: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+#rate { 
+    background-color: blueviolet;
+    width: 25%;
+    height: 25px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
